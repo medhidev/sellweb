@@ -1,0 +1,46 @@
+@import url(pannel.css);
+
+nav{
+    background-color: var(--sub-bg-color);
+    padding: 1%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+/* li{
+    list-style-type: none;
+    transition: 1s;
+}
+
+li:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: var(--dark-bg-color);
+    transition: 1s;
+} */
+
+li {
+    list-style-type: none;
+    padding-left: 10px; /* Ajustez selon votre besoin initial */
+    padding-right: 10px; /* Ajustez selon votre besoin initial */
+}
+
+li:hover {
+    background-color: var(--dark-bg-color);
+    transform: scale(1.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}

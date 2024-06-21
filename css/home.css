@@ -1,0 +1,33 @@
+/* Font Playwrite New Zealand */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&family=Playwrite+NZ:wght@100..400&display=swap');
+@import url(pannel.css);
+
+body{
+    font-family: 'Playwrite NG Modern';
+    background-color: var(--main-bg-color);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 15%;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    /* Placer en bas de page */
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    /* Apparence */
+    font-size: 10px;
+    background-color: var(--sub-bg-color);
+}
