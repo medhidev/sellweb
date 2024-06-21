@@ -11,7 +11,7 @@
     <header><?php include "nav.php"; ?></header>
     
     <main>
-        <h1>Bienvenue sur mon site de vente</h1>
+        <h1>Bienvenue sur mon site de vente branche dev</h1>
     </main>
 
     <footer>
